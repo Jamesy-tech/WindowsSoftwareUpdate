@@ -302,7 +302,7 @@ class WindowsSoftwareUpdate:
 
         delay = 0
 
-        for i in range(random.randint(10, 100)):
+        for i in range(random.randint(100, 500)):
             delay += random.randint(10, 100)
             self.root.after(
                 delay,
